@@ -1,0 +1,235 @@
+.container {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+  justify-content: center;
+}
+.app-logo {
+  height: 75px;
+  width: 180px;
+  padding-bottom: 10px;
+}
+.bottom-container {
+  background-color: #5763a5;
+  height: 500px;
+  width: 1100px;
+  border-radius: 10px;
+  margin-top: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.add-password-container {
+  background-color: #454f84;
+  width: 400px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 8px;
+}
+.heading {
+  color: #f8fafc;
+  font-family: 'Roboto';
+}
+.website-input {
+  background-color: #ffffff;
+  height: 50px;
+  width: 100%;
+  margin-bottom: 18px;
+  border-radius: 5px;
+  padding: 10px;
+}
+.input {
+  height: 38px;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+  font-size: 12px;
+  width: 60%;
+  
+}
+.img {
+  height: 25px;
+  width: 25px;
+  margin-right: 20px;
+  /* margin-top: 10px; */
+}
+.btn {
+  height: 30px;
+  width: 90px;
+  background-color: #0b69ff;
+  border-radius: 5px;
+  color: #f8fafc;
+  border: none;
+  outline: none;
+  font-family: 'Roboto';
+}
+.btn-container {
+  text-align: right;
+}
+.password-manager-img {
+  height: 400px;
+  width: 400px;
+  margin-left: 100px;
+}
+.bottom-container-2 {
+  background-color: #5763a5;
+  height: 500px;
+  width: 1100px;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding-top: 20px;
+  padding-right: 32px;
+  padding-left: 32px;
+}
+.count-btn {
+  margin-top: 30px;
+  height: 25px;
+  width: 30px;
+  margin-left: 10px;
+  background-color: transparent;
+  border-radius: 20px;
+  color: #f8fafc;
+  font-size: 14px;
+  border: 2px solid #b6c3ca;
+  text-align: center;
+}
+.count-btn-container {
+  display: flex;
+  justify-content: space-between;
+}
+.display {
+  display: flex;
+}
+.search-input {
+  height: 40%;
+  width: 70%;
+  border: none;
+  outline: none;
+  margin-top: 13px;
+  /* padding-bottom: 18px; */
+}
+.search-container {
+  background-color: #ffffff;
+  height: 40px;
+  /* padding-top: 10px; */
+  border-radius: 8px;
+  width: 300px;
+  margin-top: 18px;
+  display: flex;
+  /* position: relative; */
+}
+.search-img {
+  height: 20px;
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 12px;
+}
+.hr-line {
+  background-color: #94a3b8;
+}
+.right {
+  text-align: right;
+}
+.ans-container {
+  border: 1px solid #b6c3ca;
+}
+.yellow {
+  background-color: #f59e0b;
+}
+.green {
+  background-color: #10b981;
+}
+.orange {
+  background-color: #f97316;
+}
+.blue {
+  background-color: #14b8a6;
+}
+.brown {
+  background-color: #b91c1c;
+}
+.list-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #f8fafc;
+  height: 100%;
+}
+.website {
+  font-size: 12px;
+  margin: 2px;
+}
+.star-img {
+  width: 80px;
+  height: 10px;
+  margin-top: 8px;
+  margin-left: 2px;
+}
+.del-img {
+  width: 20px;
+  height: 20px;
+}
+.del-btn {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  margin-left: auto;
+}
+.result-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.empty-state {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.empty-img {
+  width: 220px;
+  height: 170px;
+}
+.para {
+  color: #f8fafc;
+  font-size: 14px;
+}
+.item-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #9ba9eb;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 10px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+.initial {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: green;
+  width: 35px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 8px;
+  margin-right: 10px;
+}
